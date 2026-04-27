@@ -1,0 +1,62 @@
+# OpenClaw Setup Guide - .gitignore
+
+# Environment & Credentials
+.env
+.env.*
+*.credentials
+*.key
+*.pem
+config.json
+openclaw.json
+secrets/
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# OS Files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Editor & IDE
+.vscode/
+.idea/
+*.sublime-*
+.project
+.classpath
+.settings/
+
+# Backup Files
+*.bak
+*.backup
+*~
+
+# Temporary Files
+tmp/
+temp/
+*.tmp
+
+# Node modules (if documentation uses any tooling)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Python (if using any Python scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+venv/
+ENV/
+
+# Docker (sensitive context)
+docker-compose.override.yml
+
+# Personal Notes (users' private annotations)
+NOTES.md
+PERSONAL.md
+MY-*.md
